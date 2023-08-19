@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Vollkorn&display=swap');
+
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Roboto", sans-serif;
+    overflow: hidden;
+}
+:root{
+ --primary-color:#283593;
+ --secondary-color:#3F51B5;
+ --accent-color:#8C9EFF;
+ --accent-dark-color:#1A237E;
+}
+
+/* utility styles */
+.flex{
+ display:flex;
+ align-items: center;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+h2{
+ font-size: 1.5rem;
+}
+
+p{
+  font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.primary-button{
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.primary-button:hover{
+    background-color: var(--accent-dark-color);
+    transition: 1s ease;
+}
+.secondary-button{
+    background-color:white;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.secondary-button:hover{
+    background-color:var(--primary-color);
+    color:white;
+    border:none;
+    transition: all 0.5s ease;
+}
