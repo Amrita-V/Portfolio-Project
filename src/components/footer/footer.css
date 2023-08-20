@@ -1,0 +1,8 @@
+footer{
+    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+    height: 30px;
+    bottom: 0;
+    padding: 40px 20px;
+    justify-content: center;
+}

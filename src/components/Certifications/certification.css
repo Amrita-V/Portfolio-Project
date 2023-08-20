@@ -1,0 +1,74 @@
+.certification-section{
+  max-height: 500px;
+  padding: 30px 40px;
+  color: white;
+  background-color: var(--secondary-color);
+}
+.certificate-box{
+  height:350px;
+  width: 500px;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.69);
+}
+
+.certificate-img{
+  height:100%;
+  width:100%;
+  background-size: cover;
+}
+
+
+/* .card-container{
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    gap:10px;
+    position: relative;
+    
+  } */
+.arrow{
+  height: 40px;
+  position: absolute;
+}
+ .arrow-left{
+transform: rotate(180deg);
+left: 100px;
+  }
+  .arrow-right{
+    right: 100px;
+  }
+
+
+/* .transparent-card{
+    background: #ffffff7d;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.7px);
+-webkit-backdrop-filter: blur(2.7px);
+border: 1px solid rgba(255, 255, 255, 1);
+
+}
+  .card-left{
+  color:white;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  width: 30%;
+  padding: 20px;
+}
+
+.card-right{
+height:200px;
+background: rgba(255, 255, 255, 0.69);
+justify-content: center;
+} */
+
+/* .certificate-img{
+    width:100%;
+    height: 100%;
+    border-radius: 16px;
+    border: 5px solid gray;
+    background-size: cover;
+   
+}*/

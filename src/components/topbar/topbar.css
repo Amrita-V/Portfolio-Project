@@ -1,0 +1,17 @@
+.topbar-section{
+    background-color: var(--secondary-color);
+    color: white;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+
+.main-nav{
+    justify-content: space-between;
+    
+
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 20px;
+}
