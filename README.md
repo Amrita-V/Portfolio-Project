@@ -1,3 +1,7 @@
+
+![portfolio](https://github.com/Amrita-V/Portfolio-Project/assets/119658333/b87bfcb4-b315-4f09-b75e-d7927fea3c1e)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
