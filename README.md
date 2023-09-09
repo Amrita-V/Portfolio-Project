@@ -1,5 +1,7 @@
 
-![portfolio](https://github.com/Amrita-V/Portfolio-Project/assets/119658333/b87bfcb4-b315-4f09-b75e-d7927fea3c1e)
+![portfolio](https://github.com/Amrita-V/Portfolio-Project/assets/119658333/68d939cc-5676-48e0-b8ab-ead73572e148)
+
+
 
 
 # Getting Started with Create React App
