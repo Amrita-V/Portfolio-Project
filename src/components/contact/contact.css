@@ -20,6 +20,7 @@
 .contact-form-heading{
     color: var(--primary-color);
     text-align: center;
+    text-transform: uppercase;
 }
 .feedback-img{
     width:300px;

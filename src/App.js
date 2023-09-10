@@ -1,4 +1,4 @@
-// import Certifications from "./components/Certifications/Certifications";
+import Certifications from "./components/Certifications/Certifications";
 import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/contact/Contact";
@@ -13,10 +13,15 @@ function App() {
     <div>
     <Topbar/>
     <Introduction/>
+    <hr/>
     <Projects/>
+    <hr/>
     <Skills/>
+    <hr/>
     <Education/>
-    {/* <Certifications/> */}
+    <hr/>
+    <Certifications/>
+    <hr/>
     <Contact/>
     <Footer/>
    

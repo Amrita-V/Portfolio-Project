@@ -77,13 +77,13 @@ export const certificates = [
 	{
 		id: 2,
 		title: "Introduction to Python by Infosys Springboard",
-		image: "assets/homepage.png",
+		image: "assets/python.png",
 		description: "Introduction to Python by Infosys Springboard",
 	},
 	{
 		id: 3,
 		title: "C# Fundamentals of Coding by Udemy",
-		image: "assets/portfolio.png",
+		image: "assets/csharpcertificate.jpeg",
 		description: "C# Fundamentals of Coding by Udemy",
 	},
 ];
@@ -108,3 +108,5 @@ export const educationalData = [
 		year: "2014 - 2016",
 	},
 ];
+
+

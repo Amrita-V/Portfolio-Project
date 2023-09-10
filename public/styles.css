@@ -28,7 +28,9 @@ body{
     padding:20px var(--padding-inline-section) 30px;
     overflow: hidden;
 }
-
+.heading{
+    text-transform: uppercase;
+} 
 hr{
     background-color: lightgray;
     height: 15px;
@@ -141,16 +143,7 @@ ul{
         flex-direction: column;
     }
 
-    .examples-area{
-        gap:20px;
-    }
-   .example-card{
-    width:calc(50% - 10px);
-    height: 180px;
-   }
-   .cta-section{
-    padding:80px;
-   }
+    
 }
 
 @media screen and (max-width:767px) {

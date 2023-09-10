@@ -27,14 +27,9 @@ const Projects = () => {
 								<h6>{technology}</h6></div>)
 														})
 						}
-					
-					{/* <div className="project-tool">
-					<h6>CsS</h6></div><div className="project-tool">
-					<h6>javascript</h6></div><div className="project-tool">
-					<h6>bootstrap</h6></div> */}
 					</div>
-					<h4>{project.title}</h4>
-					<p>{project.description}</p>
+					<h3>{project.title}</h3>
+					{/* <p>{project.description}</p> */}
 				</div>
 				</a>
 
