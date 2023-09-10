@@ -3,14 +3,32 @@
     color: white;
     /* position: fixed; */
     top: 0;
+    z-index: 99;
     width: 100%;
-}
-
-.main-nav{
+    height: 80px;
+    padding: 20px 80px;
+    position: sticky;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    gap: 30px;
     
-
 }
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 160px;
+    height: 80px;
+    margin: 0 120px 0 0 ;
+}
+/* .main-nav{
+    justify-content: space-between;
+} */
+
 .nav-links ul{
     justify-content: end;
     gap: 20px;

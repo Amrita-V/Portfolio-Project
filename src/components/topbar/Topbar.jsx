@@ -3,10 +3,10 @@ import './topbar.css';
 const Topbar = () => {
 
   return (
-    <div className="topbar-section" id='home'>
-    <div className='container main-nav flex'>
-            <h1>My Portfolio</h1>
-          {/* <img src='{logo}' alt='logo-image' style={{background:"red"}}/> */}
+    <section className="topbar-section" id='home'>
+    <div className='main-nav flex'>
+            {/* <h1>My Portfolio</h1> */}
+          <img src='assets/logo.png' alt='logo-image' className='logo'/>
         <div className="nav-links">
                 <ul className='flex'>
                     {/* <li><a href="#home" className='hover-link'>Home</a></li> */}
@@ -19,7 +19,7 @@ const Topbar = () => {
                 </ul>
         </div>
     </div>
-    </div>
+    </section>
   )
 }
 

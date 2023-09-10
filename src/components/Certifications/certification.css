@@ -1,4 +1,4 @@
-.certification-section{
+/* .certification-section{
   max-height: 500px;
   padding: 30px 40px;
   color: white;
@@ -27,7 +27,7 @@
     position: relative;
     
   } */
-.arrow{
+ .arrow{
   height: 40px;
   position: absolute;
 }
@@ -37,8 +37,48 @@ left: 100px;
   }
   .arrow-right{
     right: 100px;
+  } 
+  #certification-section{
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
   }
 
+  .slider{
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    /* background-color: brown; */
+
+  }
+
+  .certificate-container{
+    width: 100vw;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .certificate-box{
+    height:350px;
+    width: 500px;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.69);
+  }
+  
+  .certificate-img{
+    height:100%;
+    width:100%;
+    background-size: cover;
+  }
+  
 
 /* .transparent-card{
     background: #ffffff7d;

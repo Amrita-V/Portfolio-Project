@@ -1,6 +1,7 @@
 #skills-section{
     /* background-color:#ccdbf7; */
         background-color:#d7e5ff;
+		padding: 20px 0;
 
 }
 .skills-container {
@@ -9,7 +10,7 @@
 	/* background-image: url('./assets/skill1.png');  */
 }
 .right-box {
-	flex: 0.3;
+	
 	width: 200px;
 	object-fit: cover;
 }
