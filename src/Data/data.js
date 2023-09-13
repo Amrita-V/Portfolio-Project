@@ -5,7 +5,8 @@ export const projects = [
 		image: "./assets/homepage.png",
 		description: "mg bmf gmb mfg mb ",
 		technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL","Bootstrap","jQuery","Xampp"],
-	},
+        githunLink:"https://github.com/Amrita-V/Online_Tutor_Finder"
+    },
 	{
 		id: 2,
 		title: "Digital Clock",

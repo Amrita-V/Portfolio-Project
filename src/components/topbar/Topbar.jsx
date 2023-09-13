@@ -25,7 +25,7 @@ const Topbar = () => {
                     <li><a href="#skills-section" className='hover-link'>Skills</a></li>
                     <li><a href="#projects-section" className='hover-link'>Projects</a></li>
                     <li><a href="#certification" className='hover-link'>Certification</a></li>
-                    <li><a href="www.google.com" className='hover-link'>Experience</a></li>
+                    <li><a href="#" className='hover-link'>Experience</a></li>
                 </ul>
         </div>
         <a className="nav-toggle hover-link" id="nav-toggle" ><i className="fa-solid fa-bars"></i></a>
