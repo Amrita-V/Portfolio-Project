@@ -1,45 +1,78 @@
-#skills-section{
-    /* background-color:#ccdbf7; */
-        background-color:#d7e5ff;
-		padding: 20px 0;
-
-}
-.skills-container {
-	flex-direction: row;
-	justify-content: space-between;
-	/* background-image: url('./assets/skill1.png');  */
-}
-.right-box {
+#skill-section {
+	/* background-color:whitesmoke; */
+	background-color: rgb(31, 30, 58);
 	
-	width: 200px;
-	object-fit: cover;
-}
-.right-box img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-    /* z-index: 2; */
+	/* background-color: var(--primary-text-color); */
+
 }
 
-.left-box {
-	flex: 0.7;
+
+.skill-container {
 	flex-direction: row;
-	gap: 50px;
-	justify-content: center;
-	align-items: start;
-	text-align: start;
-}
-.skill-heading {
-	color: var(--primary-color);
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 40px;
+	margin: auto;
+	border: none;
+	padding: 20px 40px;
+
 }
 
-.skills-container ul {
-	padding: 20px 10px;
-	list-style: disc;
+.skill-list-box {
+	width: 300px;
+	padding: 20px;
+	flex-direction: row;
+	gap: 20px;
+	color: whitesmoke;
+	letter-spacing: 0.5px;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	background: rgba(255, 255, 255, 0.13);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(6.3px);
+	-webkit-backdrop-filter: blur(6.3px);
+	border: 1px solid rgba(255, 255, 255, 0.26);
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.13);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(6.3px);
+	-webkit-backdrop-filter: blur(6.3px);
+	border: 1px solid rgba(255, 255, 255, 0.26);
+
+
+
 }
 
-.skill-list {
+.skill-box {
 	flex-direction: column;
+	justify-content: space-evenly;
 	gap: 10px;
-	align-items: flex-start;
+	width: 80px;
+	height: 80px;
+	padding: 10px;
+
+
+
+}
+
+.skill-box img {
+	width: 70%;
+	height: 70%;
+	border: none;
+	/* box-shadow: 1px 3px 5px gray;
+	background-color: transparent; */
+}
+
+.skill-title {
+	text-align: center;
+
+}
+
+
+.right-container img {
+	width: 250px;
+	height: 200px;
+	/* opacity: 0.98; */
 }

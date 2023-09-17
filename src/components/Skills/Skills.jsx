@@ -1,31 +1,36 @@
 "use client";
 import React from "react";
 import "./skills.css";
-import { skillData } from "../../Data/data";
+import { skills } from "../../Data/data";
 const Skills = () => {
 	return (
-		<section id="skills-section">
-			<div className="container skills-container flex">
-				<div className="left-box flex">
-					{/* <div className="skill-box"> */}
-						{skillData.map((skill, id) => {
-							return (
-								<div className="skill-box" key={id}>
-									<h3 className="skill-heading" >
-										{skill.name}
-									</h3>
-									<ul className="skill-list flex">
-										{skill.languages.map((element, index) => {
-											return <li key={index}>{element}</li>;
-										})}
-									</ul>
-								</div>
-							);
-						})}
+		<section id="skill-section" >
+			<div className="container flex">
+				<div className="skill-container flex">
+
+					{skills.map((category) => {
+						return(
+
+						<div className="skill-list-box flex">
+							{
+								category.skills.map((skill) => {
+									return(<div className="skill-box flex">
+										<img src={skill.image} />
+										<div className="skill-title"><h5>{skill.name}</h5></div>
+										
+									</div>)
+								})
+
+							}
+
+						</div>)
+					})
+					}
+
 				</div>
-				<div className="right-box">
-					<h2 className="heading-text">SKILLS</h2>
-					<img src="./assets/skillimg.png" />
+				<div className="right-container">
+				<h2 style={{textAlign:"center", color:"whitesmoke"}}>SKILLS</h2>
+					<img src="./assets/skillimg.png" alt="" />
 				</div>
 			</div>
 		</section>

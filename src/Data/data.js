@@ -2,7 +2,7 @@ export const projects = [
 	{
 		id: 1,
 		title: "Online Tutor Finder",
-		image: "./assets/homepage.png",
+		image: "./assets/projects/homepage.png",
 		description: "mg bmf gmb mfg mb ",
 		technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL","Bootstrap","jQuery","Xampp"],
         githunLink:"https://github.com/Amrita-V/Online_Tutor_Finder"
@@ -10,7 +10,7 @@ export const projects = [
 	{
 		id: 2,
 		title: "Digital Clock",
-		image: "./assets/clockproject.png",
+		image: "./assets/projects/clockproject.png",
 		description: "f vnmdfn ngrn gnkerng",
 		technologies: ["HTML", "CSS", "JavaScript"],
 		githunLink: "https://github.com/Amrita-V/Digital_Clock",
@@ -18,23 +18,23 @@ export const projects = [
 	{
 		id: 3,
 		title: "Portfolio Project",
-		image: "./assets/portfolio.png",
+		image: "./assets/projects/portfolio.png",
 		description: "f vnmdfn ngrn gnkerng",
 		technologies: ["React.js"],
 		githunLink: "https://github.com/Amrita-V/Portfolio-Project",
 	},
-	{
-		id: 4,
-		title: "Bubble Game Project",
-		image: "./assets/portfolio.png",
-		description: "f vnmdfn ngrn gnkerng",
-		technologies: ["HTML", "CSS", "JavaScript"],
-		githunLink: "https://github.com/Amrita-V/Bubble_Game_JS",
-	},
+	// {
+	// 	id: 4,
+	// 	title: "Bubble Game Project",
+	// 	image: "./assets/projects/portfolio.png",
+	// 	description: "f vnmdfn ngrn gnkerng",
+	// 	technologies: ["HTML", "CSS", "JavaScript"],
+	// 	githunLink: "https://github.com/Amrita-V/Bubble_Game_JS",
+	// },
 	{
 		id: 5,
 		title: "Landing Page UI Practice",
-		image: "./assets/portfolio.png",
+		image: "./assets/projects/portfolio.png",
 		description: "f vnmdfn ngrn gnkerng",
 		technologies: ["HTML", "CSS"],
 		githunLink: "https://github.com/Amrita-V/Landing_Page_UIDesign",
@@ -50,41 +50,94 @@ export const bio = [
 	},
 ];
 
-export const skillData = [
-	{
-		id: 1,
-		name: "Frontend Technologies",
-		languages: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+export const skills = [
+{
+	title:"Frontend",
+	skills:[{
+		name:"HTML",
+		image:"./assets/skills/html.png"
 	},
 	{
-		id: 2,
-		name: "Programming Languages",
-		languages: ["C#", "Python basics"],
+		name:"CSS",
+		image:"./assets/skills/css-3.png"
 	},
 	{
-		id: 3,
-		name: "Other Tools",
-		languages: ["Git & GitHub", "VS-Code", "Visual Studio"],
+		name:"Bootstrap",
+		image:"./assets/skills/bootstrap-icon.png"
+	},{
+		name:"JavaScript",
+		image:"./assets/skills/js.png"
 	},
+	{
+		name:"React",
+		image:"./assets/skills/atom.png"
+	},
+],
+},
+{
+	title:"Programming languages & Other tools",
+	skills:[{
+		name:"C#",
+		image:"./assets/skills/c-sharp.png"
+	},
+	{
+		name:"Python basics",
+		image:"./assets/skills/python.png"
+	},
+	{
+		name:"ASP.NET Core Web API",
+		image:"./assets/skills/api.png"
+	},{
+		name:"Git & GitHub",
+		image:"./assets/skills/github.png"
+	},
+	{
+		name:"VS-Code",
+		image:"./assets/skills/vscode.png"
+	},
+	{
+		name:"Visual Studio",
+		image:"./assets/skills/visual-studio.png"
+	}
+],
+}
 ];
+
+// export const skillData = [
+// 	{
+// 		id: 1,
+// 		name: "Frontend Technologies",
+// 		languages: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+// 	},
+// 	{
+// 		id: 2,
+// 		name: "Programming Languages",
+// 		languages: ["C#", "Python basics"],
+// 	},
+// 	{
+// 		id: 3,
+// 		name: "Other Tools",
+// 		languages: ["Git & GitHub", "VS-Code", "Visual Studio"],
+// 	},
+// ];
 
 export const certificates = [
 	{
 		id: 1,
 		title: "Database Foundation by Oracle Academy",
-		image: "assets/oraclecertificate.jpg",
+		image: "./assets/certificates/oraclecertificate.jpg",
 		description: "Database Foundation by Oracle",
 	},
 	{
 		id: 2,
 		title: "Introduction to Python by Infosys Springboard",
-		image: "assets/python.png",
+		image: "./assets/certificates/python-certificate.png",
 		description: "Introduction to Python by Infosys Springboard",
 	},
 	{
 		id: 3,
 		title: "C# Fundamentals of Coding by Udemy",
-		image: "assets/csharpcertificate.jpeg",
+		image: "./assets/certificates/csharpcertificate.jpeg",
 		description: "C# Fundamentals of Coding by Udemy",
 	},
 ];
