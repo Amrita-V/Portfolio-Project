@@ -29,8 +29,9 @@ const Projects = () => {
 				<h4>{project.title}</h4>
 				<div className="project-link flex">
 					<a href={project.githunLink} target="_blank"><img src="./assets/skills/github.png"/></a>
-					<a href={project.live_link} target="_blank"><img src="./assets/search.png" alt=""/></a>
-				</div>
+					{project.live_link !== "" ? (
+    <a href={project.live_link} target="_blank"><img src="./assets/search.png" alt=""/></a>
+  ) : null}	</div>
 			</div>
 
 			)
