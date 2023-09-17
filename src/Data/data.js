@@ -1,12 +1,13 @@
 export const projects = [
 	{
 		id: 1,
-		title: "Online Tutor Finder",
-		image: "./assets/projects/homepage.png",
-		description: "mg bmf gmb mfg mb ",
-		technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL","Bootstrap","jQuery","Xampp"],
-        githunLink:"https://github.com/Amrita-V/Online_Tutor_Finder"
-    },
+		title: "Portfolio Project",
+		image: "./assets/projects/portfolio-html.png",
+		description: "f vnmdfn ngrn gnkerng",
+		technologies: ["HTML", "CSS", "JavaScript"],
+		githunLink: "https://github.com/Amrita-V/Digital_Clock",
+		live_link:"https://amrita-v.github.io/AV-Portfolio/"
+	},
 	{
 		id: 2,
 		title: "Digital Clock",
@@ -14,15 +15,25 @@ export const projects = [
 		description: "f vnmdfn ngrn gnkerng",
 		technologies: ["HTML", "CSS", "JavaScript"],
 		githunLink: "https://github.com/Amrita-V/Digital_Clock",
+		live_link:"https://amrita-v.github.io/Digital_Clock/"
 	},
 	{
 		id: 3,
-		title: "Portfolio Project",
+		title: "React Portfolio",
 		image: "./assets/projects/portfolio.png",
 		description: "f vnmdfn ngrn gnkerng",
 		technologies: ["React.js"],
 		githunLink: "https://github.com/Amrita-V/Portfolio-Project",
+		live_link:""
 	},
+	{
+		id: 4,
+		title: "Online Tutor Finder",
+		image: "./assets/projects/homepage.png",
+		description: "mg bmf gmb mfg mb ",
+		technologies: ["HTML", "CSS", "JS", "PHP", "MySQL","Bootstrap"],
+        githunLink:"https://github.com/Amrita-V/Online_Tutor_Finder",
+    },
 	// {
 	// 	id: 4,
 	// 	title: "Bubble Game Project",
@@ -34,10 +45,11 @@ export const projects = [
 	{
 		id: 5,
 		title: "Landing Page UI Practice",
-		image: "./assets/projects/portfolio.png",
+		image: "./assets/projects/landingpageui.png",
 		description: "f vnmdfn ngrn gnkerng",
 		technologies: ["HTML", "CSS"],
 		githunLink: "https://github.com/Amrita-V/Landing_Page_UIDesign",
+		live_link:"https://amrita-v.github.io/Landing_Page_UIDesign/"
 	},
 ];
 

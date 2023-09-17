@@ -6,41 +6,43 @@ const Projects = () => {
 	return (
 
 		<>
-		    <section id="projects-section">
-		<h2 style={{textAlign:"center",textTransform:"uppercase"}}>Projects</h2>
-		<div className="container project-container flex">
-			{
-				projects.map((project,index)=>
-				{
-
-				return(
-					<a href={project.githunLink} key={index}>			
+		   <section id="project-section">
+    <h2 className="section-heading">PROJECTS</h2>
+<div className="container project-container flex">
+	{
+		projects.map((project) =>
+		{
+			return(
 				<div className="projects-card flex"  >
-					<div className="project-img">
-						<img src={project.image} />
-					</div>
-					<div className="project-technology flex">
+				<div className="project-img">
+					<img src={project.image} />
+				</div>
+				<div class="project-technology flex">
+					{
+						project.technologies.map((technology)=>
 						{
-							project.technologies.map((technology,index)=>
-							{
-								return (<div className="project-tool" key={index}>
-								<h6>{technology}</h6></div>)
-														})
-						}
-					</div>
-					<h3>{project.title}</h3>
-					{/* <p>{project.description}</p> */}
+							return( <h6  className="project-tool">{technology}</h6>)
+						})
+					}
 				</div>
-				</a>
+			  <hr className="project-hr"/>
+				<h4>{project.title}</h4>
+				<div className="project-link flex">
+					<a href={project.githunLink} target="_blank"><img src="./assets/skills/github.png"/></a>
+					<a href={project.live_link} target="_blank"><img src="./assets/search.png" alt=""/></a>
+				</div>
+			</div>
 
-				)
-			})
-		}
-				</div>
-    </section>
+			)
+		})
+	}
+  
+	</div>
+	</section>
+
 	</>
 
 	);
-};
 
+	};
 export default Projects;
