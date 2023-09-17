@@ -1,6 +1,6 @@
 footer{
-    background-color: var(--accent-color);
-    color: var(--primary-text-color);
+    background-color: var(--primary-text-color);
+    color: var(--accent-color);
     height: 100px;
     bottom: 0;
     padding: 10px;

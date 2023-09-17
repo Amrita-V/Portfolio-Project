@@ -28,10 +28,13 @@ body{
     padding:20px var(--padding-inline-section) 30px;
     overflow: hidden;
 }
-.heading{
+.section-heading{
     text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+    color: var(--primary-color);
 } 
-hr{
+.hr-style{
     background-color: lightgray;
     height: 15px;
     border-top: none;

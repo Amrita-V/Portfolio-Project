@@ -22,10 +22,11 @@ const Topbar = () => {
                     {/* <li><a href="#home" className='hover-link'>Home</a></li> */}
                     <li><a href="#introduction" className='hover-link'>About</a></li>
                     <li><a href="#education-section" className='hover-link'>Education</a></li>
-                    <li><a href="#skills-section" className='hover-link'>Skills</a></li>
-                    <li><a href="#projects-section" className='hover-link'>Projects</a></li>
-                    <li><a href="#certification" className='hover-link'>Certification</a></li>
-                    <li><a href="#" className='hover-link'>Experience</a></li>
+                    <li><a href="#skill-section" className='hover-link'>Skills</a></li>
+                    <li><a href="#project-section" className='hover-link'>Projects</a></li>
+                    <li><a href="#certification-section" className='hover-link'>Certification</a></li>
+                    <li><a href="#experience-section" className='hover-link'>Experience</a></li>
+                    <li><a href="#footer-section" className='hover-link'>Contact</a></li>
                 </ul>
         </div>
         <a className="nav-toggle hover-link" id="nav-toggle" ><i className="fa-solid fa-bars"></i></a>

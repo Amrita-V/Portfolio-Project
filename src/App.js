@@ -1,5 +1,6 @@
 import Certifications from "./components/Certifications/Certifications";
 import Education from "./components/Education/Education";
+import Experience from "./components/Experience/Experience";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
@@ -13,18 +14,19 @@ function App() {
     <div>
     <Topbar/>
     <Introduction/>
-    <hr/>
-    <Projects/>
-    <hr/>
-    <Skills/>
-    <hr/>
+    <hr className="hr-style"/>
     <Education/>
-    <hr/>
+    <hr className="hr-style"/>
+    <Skills/>
+    <hr className="hr-style" />
+    <Experience/>
+    <hr className="hr-style"/>
     <Certifications/>
-    <hr/>
-    <Contact/>
+    <hr className="hr-style"/>
+    <Projects/>
+    {/* <Contact/> */}
+    <hr className="hr-style"/>
     <Footer/>
-   
     </div>
   );
 }

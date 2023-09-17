@@ -7,7 +7,7 @@ const Education = () => {
       <div className="container education-container flex">
         <img src="assets/education.png" alt="" className="education-img" />
         <div className="education-details-container flex">
-          <h2 className='heading'>Education</h2>
+          <h2 className='section-heading'>Education</h2>
           {
             educationalData.map((education,index)=>
             {
