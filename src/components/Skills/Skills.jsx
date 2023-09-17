@@ -29,7 +29,7 @@ const Skills = () => {
 
 				</div>
 				<div className="right-container">
-				<h2 style={{textAlign:"center", color:"whitesmoke"}}>SKILLS</h2>
+				<h2 className="section-heading" style={{color:"whitesmoke"}}>SKILLS</h2>
 					<img src="./assets/skillimg.png" alt="" />
 				</div>
 			</div>
