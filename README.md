@@ -5,6 +5,9 @@
 
 ![skills-section](https://github.com/Amrita-V/Portfolio-Project/assets/119658333/9320c71d-15f5-411f-a517-4694b017ead7)
 
+
+![certification-section](https://github.com/Amrita-V/Portfolio-Project/assets/119658333/8762038d-ebda-42d3-ac6a-d3d329c04543)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
