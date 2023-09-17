@@ -9,21 +9,19 @@ const Education = () => {
         <div className="education-details-container flex">
           <h2 className='section-heading'>Education</h2>
           {
-            educationalData.map((education,index)=>
-            {
+            educationalData.map((education, index) => {
               return (
                 <div className="education-box flex" key={index}>
-                <h3>{education.college}</h3>
-                <h5>{education.year}</h5>
-                <p>{education.course}</p>
-              </div>
+                  <h3>{education.college}</h3>
+                  <h5>{education.year}</h5>
+                  <p>{education.course}</p>
+                </div>
               )
             })
           }
-         
+
         </div>
       </div>
-      
     </div>
   )
 }

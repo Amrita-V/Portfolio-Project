@@ -29,7 +29,7 @@ const Experience = () => {
                     <ul>
                         <li style={{ listStyle: "disc" }}><h4>Internship &nbsp;&nbsp;(03/2022 - 05/20222)</h4></li>
                         <h5>PageUp Software Services Pvt. Ltd., Jabalpur</h5>
-                        <div class="work-details">
+                        <div className="work-details">
                             <ul style={{ listStyle: "circle" }}>
                                 <li>Acquired frontend development skills HTML, CSS, Bootstrap.</li>
                             </ul>

@@ -17,47 +17,45 @@ const Introduction = () => {
   // },[]);
   return (
     <section className="introduction-section" id='introduction'>
-    <div className='container introduction-container flex'>
-      
-     <div className="image-box-1">
-     <div className="image-box-2 flex">
-        
-        <img src="assets/mybitmoji.jpeg" alt='image' className='myimage'/>
-     </div>
-     </div>
-          
-    
-      {
-        bio.map((data,id) =>{
-          return (
-            <div className="intro-description flex" key={id}>
-            <h2>Hi There, I'm</h2>
-            <h1>{data.name}</h1>
-            <h2>{data.role}</h2>
-            {/* <h2>Software <span style={{color:"white"}}>Engineer...</span></h2> */}
-            <div className="link-button">
-            <a href="assets/AmritaVishwakarma_Resume.pdf" target='_blank' className='secondary-button'>Download CV</a>
-            <a href={data.linkedin} className='secondary-button'>Linkedin</a> 
-            </div> 
-            </div>
- 
-          );
-        })
+      <div className='container introduction-container flex'>
 
-      }
-      {/* <h2>Hi There, I'm</h2>
+        <div className="image-box-1">
+          <div className="image-box-2 flex">
+
+            <img src="assets/mybitmoji.jpeg" alt='image' className='myimage' />
+          </div>
+        </div>
+        {
+          bio.map((data, id) => {
+            return (
+              <div className="intro-description flex" key={id}>
+                <h2>Hi There, I'm</h2>
+                <h1>{data.name}</h1>
+                <h2>{data.role}</h2>
+                {/* <h2>Software <span style={{color:"white"}}>Engineer...</span></h2> */}
+                <div className="link-button">
+                  <a href="assets/AmritaVishwakarma_Resume.pdf" target='_blank' className='secondary-button'>Download CV</a>
+                  <a href={data.linkedin} className='secondary-button'>Linkedin</a>
+                </div>
+              </div>
+
+            );
+          })
+
+        }
+        {/* <h2>Hi There, I'm</h2>
       <h1>Amrita Vishwakarma</h1>
       <h2>Software <span style={{color:"white"}}>Engineer...</span></h2>
       <div className="link-button">
       <a href="assets/AmritaVishwakarma_Resume.pdf" className='secondary-button'>Download CV</a>
       <a href="" className='secondary-button'>Linkedin</a> */}
-      {/* </div> */}
-      {/* <h2>Software <span ref={textRef}></span></h2> */}
-      
-   
-    </div>
+        {/* </div> */}
+        {/* <h2>Software <span ref={textRef}></span></h2> */}
+
+
+      </div>
     </section>
-    
+
   )
 }
 
