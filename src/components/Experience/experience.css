@@ -1,0 +1,25 @@
+.experience-box{
+    padding: 20px 80px;
+    width: 90%;
+    height: max-content;
+    border: 1px solid gray;
+    box-shadow:1px 5px 10px #2e4b61;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 20px auto;
+    line-height: 2rem;
+}
+.experience-box h4{
+    color: var(--accent-dark-color);
+   
+}
+.experience-box h5{
+    color: var(--primary-color);
+}
+
+.work-details li
+{
+    margin-left: 20px;
+    font-size: 0.98rem;
+}
+
